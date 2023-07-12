@@ -9,7 +9,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //WebGet webGet=new WebGet();
-        WebGet2 webGet2=new WebGet2();
+        //WebGet2 webGet2=new WebGet2();
+        CurrencyConverterApp currencyConverterApp=new CurrencyConverterApp();
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter text to search in one web :");
         String text=scanner.nextLine();

@@ -15,6 +15,7 @@ public class WebGet2 {
                 document = Jsoup.connect("https://www.one.co.il/").get();
 
             List<Element>elementsList=document.getElementsByClass("one-article one-article-secondary");// לוקח את כל האלמנטים עם ה id הנוכחי
+
             for(Element element:elementsList){
                 System.out.println("-----כל התיבת טקסט---");
                 System.out.println(element.text()); //מדפיס את כל האלמנטים, עם כל המלל המלא זה האבא של הכותרת
